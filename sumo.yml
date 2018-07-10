@@ -1,6 +1,5 @@
 - name: Upgrade SumoCollector to 19.216-38
   hosts: all
-  remote_user: svc.cprtops
   become: true
   become_method: sudo
   become_user: root
